@@ -1,11 +1,15 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Servlet Example</title>
+    <title>Login Page</title>
 </head>
 <body>
-    <h2>Welcome to Java Servlet Application</h2>
-    <a href="hello">Click here to access the servlet</a>
+    <h2>Login</h2>
+    <form action="login" method="post">
+        Username: <input type="text" name="userName" required><br>
+        Password: <input type="password" name="password" required><br>
+        <input type="submit" value="Login">
+    </form>
 </body>
 </html>
+
